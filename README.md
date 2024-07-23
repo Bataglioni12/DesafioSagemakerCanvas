@@ -27,6 +27,19 @@
 
 O modelo de previsão apresenta desempenho satisfatório em algumas métricas, como AVG. wQL e WAPE, indicando um bom ajuste do modelo à realidade e precisão nas previsões para itens de maior valor. No entanto, o MAPE e o RMSE indicam que o modelo ainda pode ser otimizado para reduzir o erro geral das previsões e melhorar a precisão, especialmente em relação à previsão de faltas de estoque. O MASE indica que o modelo supera a média histórica, mas ainda há espaço para aprimoramento para superar o modelo simples.
 
-## STANDARD BUILD
+### Predict
+
+![single_prediction_results](https://github.com/user-attachments/assets/1d219cc9-414a-4b16-8416-3134dffbb8e6)
+
+**Avaliação:** 
+
+O item **1000** teve sua previsão conforme imagem acima.
+
+* **P10: Cenário de baixa demanda ou pessimista**
+* * Em um cenário de baixa demanda, o item deve apresentar um estoque de 10,545 para corresponder ao mercado
+* **P50: Cenário de demanda normal esperada**
+* * Em um cenário noraml de demanda, o item deve apresentar um estoque de 15,831 para corresponder ao mercado
+* **P90: Cenário de alta demanda ou otimista**
+* * Em um cenário de alta demanda, o item deve apresentar um estoque de 20,574 para corresponder ao mercado
 
 
